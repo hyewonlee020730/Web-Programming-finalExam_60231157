@@ -26,8 +26,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   const piglin = $(".Piglin");
-  const originalBackground = "img/Piglin2.gif";
-  const BackgroundChange = "img/Piglin1.gif";
+  const originalBackground = "/img/Piglin2.gif";
+  const BackgroundChange = "/img/Piglin1.gif";
 
   const PiglinDuration = 5100;
 
@@ -48,8 +48,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   const zpiglin = $(".Zombie_Piglin");
-  const originalBackground = "img/Zombie_Piglin1.gif";
-  const BackgroundChange = "img/Zombie_Piglin2.gif";
+  const originalBackground = "/img/Zombie_Piglin1.gif";
+  const BackgroundChange = "/img/Zombie_Piglin2.gif";
 
   const ZPiglinDuration = 8100;
 
@@ -70,8 +70,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   const strider = $(".Strider");
-  const originalBackground = "img/Strider1.gif";
-  const BackgroundChange = "img/Strider2.gif";
+  const originalBackground = "/img/Strider1.gif";
+  const BackgroundChange = "/img/Strider2.gif";
 
   const StriderDuration = 2500;
 
@@ -94,8 +94,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   const steve = $(".steve");
-  const originalBackground = "img/Steve1.gif";
-  const BackgroundChange = "img/Steve2.gif";
+  const originalBackground = "/img/Steve1.gif";
+  const BackgroundChange = "/img/Steve2.gif";
 
   const SteveDuration = 3000;
 
@@ -116,8 +116,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   const skeleton = $(".Skeleton");
-  const originalBackground = "img/Skeleton1.gif";
-  const BackgroundChange = "img/Skeleton2.gif";
+  const originalBackground = "/img/Skeleton1.gif";
+  const BackgroundChange = "/img/Skeleton2.gif";
 
   const SkeletonDuration = 4000;
 
@@ -138,8 +138,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   const zombie = $(".Zombie");
-  const originalBackground = "img/Zombie1.gif";
-  const BackgroundChange = "img/Zombie2.gif";
+  const originalBackground = "/img/Zombie1.gif";
+  const BackgroundChange = "/img/Zombie2.gif";
 
   const ZombieDuration = 2500;
 
@@ -173,7 +173,7 @@ $(document).ready(function () {
     const coal1 = $(".coal");
     const coal2 = $(".coal2");
 
-    creeper.css("background-image", "url('img/Creeper2.gif')");
+    creeper.css("background-image", "url('/img/Creeper2.gif')");
 
     const creeperDuration = 1500;
 
@@ -206,8 +206,8 @@ $(document).ready(function () {
 //엔드
 $(document).ready(function () {
   const shulker = $(".Shulker");
-  const originalBackground = "img/Shulker1.gif";
-  const BackgroundChange = "img/Shulker2.gif";
+  const originalBackground = "/img/Shulker1.gif";
+  const BackgroundChange = "/img/Shulker2.gif";
 
   const ShulkerDuration = 2500;
 
@@ -293,7 +293,7 @@ $(document).ready(function () {
     $(".E_DragonFB").remove();
     const EDragonFB = $("<div class='E_DragonFB'></div>");
     EDragonFB.css({
-      "background-image": "url('img/E_DragonFB.gif')",
+      "background-image": "url('/img/E_DragonFB.gif')",
       "background-size": "100% 100%",
       width: "155.91px",
       height: "185px",
