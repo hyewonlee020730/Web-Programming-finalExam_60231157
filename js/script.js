@@ -5,8 +5,8 @@ $(document).ready(function () {
 // 지옥
 $(document).ready(function () {
   const ghast = $(".Ghast");
-  const originalBackground = "../img/ghast1.gif";
-  const BackgroundChange = "../img/GhastFireBall.gif";
+  const originalBackground = "./img/ghast1.gif";
+  const BackgroundChange = "./img/GhastFireBall.gif";
   const fireballDuration = 3000;
 
   ghast.on("click", function () {
