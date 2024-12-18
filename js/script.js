@@ -26,8 +26,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   const piglin = $(".Piglin");
-  const originalBackground = "../img/Piglin2.gif";
-  const BackgroundChange = "../img/Piglin1.gif";
+  const originalBackground = "/img/Piglin2.gif";
+  const BackgroundChange = "/img/Piglin1.gif";
 
   const PiglinDuration = 5100;
 
@@ -48,8 +48,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   const zpiglin = $(".Zombie_Piglin");
-  const originalBackground = "../img/Zombie_Piglin1.gif";
-  const BackgroundChange = "../img/Zombie_Piglin2.gif";
+  const originalBackground = "/img/Zombie_Piglin1.gif";
+  const BackgroundChange = "/img/Zombie_Piglin2.gif";
 
   const ZPiglinDuration = 8100;
 
@@ -70,8 +70,8 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   const strider = $(".Strider");
-  const originalBackground = "../img/Strider1.gif";
-  const BackgroundChange = "../img/Strider2.gif";
+  const originalBackground = "img/Strider1.gif";
+  const BackgroundChange = "img/Strider2.gif";
 
   const StriderDuration = 2500;
 
