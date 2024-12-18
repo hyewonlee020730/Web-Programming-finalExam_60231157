@@ -1,0 +1,643 @@
+* {
+  font-family: "Tiny5", serif;
+}
+
+.tiny5-regular {
+  font-family: "Tiny5", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*---포스터 백그라운드------------------------------------------------*/
+
+.background {
+  width: 1370px;
+  height: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url("../img/background.png");
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden;
+}
+
+.title-box {
+  width: 714.39px;
+  height: 122.28px;
+  background-image: url("../img/title.png");
+  background-size: 100% 100%;
+  position: absolute;
+  top: 15px;
+  align-items: center;
+}
+
+.E-text {
+  position: absolute;
+  top: 140px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 27px;
+}
+
+.E-date {
+  width: 346px;
+  height: 70px;
+  background-size: 100% 100%;
+  position: absolute;
+  background-image: url("../img/E_date.png");
+  top: 80px;
+  right: 45px;
+}
+
+.E-place {
+  width: 346px;
+  height: 70px;
+  background-size: 100% 100%;
+  position: absolute;
+  background-image: url("../img/E_place.png");
+  top: 80px;
+  left: 45px;
+}
+
+/*---지옥----------------------------------------------*/
+
+.hell-back {
+  width: 400px;
+  height: 440px;
+  display: flex;
+  bottom: 20px;
+  left: 45px;
+  position: absolute;
+  background-image: url("../img/hell_back.png");
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden;
+}
+
+.Ghast {
+  width: 273.13px;
+  height: 108.22px;
+  display: flex;
+  top: 109px;
+  left: 50px;
+  position: absolute;
+  background-image: url("../img/ghast1.gif");
+  background-size: 100% 100%;
+  overflow: hidden;
+  z-index: 200;
+}
+
+.Ghastname {
+  width: 273.13px;
+  height: 108.22px;
+  display: flex;
+  top: 89px;
+  left: 75px;
+  position: absolute;
+  background-size: 100% 100%;
+  overflow: hidden;
+  z-index: 100;
+  visibility: hidden;
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  text-align: top;
+  text-align: center;
+  color: white;
+  font-size: 14;
+}
+
+.Ghast:hover + .Ghastname {
+  visibility: visible;
+  opacity: 1;
+}
+
+.Piglin {
+  width: 160px;
+  height: 121px;
+  display: flex;
+  top: 40px;
+  right: 84px;
+  position: absolute;
+  background-image: url("../img/Piglin2.gif");
+  background-size: 100% 100%;
+  overflow: hidden;
+  z-index: 200;
+}
+.Piglinname {
+  width: 160px;
+  height: 121px;
+  display: flex;
+  top: 20px;
+  right: -20px;
+  position: absolute;
+  text-align: top;
+  text-align: right;
+  background-size: 100% 100%;
+  visibility: hidden;
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  text-align: top;
+  text-align: center;
+  color: white;
+  font-size: 14;
+  z-index: 100;
+}
+
+.Piglin:hover + .Piglinname {
+  visibility: visible;
+  opacity: 1;
+}
+
+.Zombie_Piglin {
+  width: 200px;
+  height: 120px;
+  display: flex;
+  bottom: 40px;
+  left: 1px;
+  position: absolute;
+  background-image: url("../img/Zombie_Piglin1.gif");
+  background-size: 100% 100%;
+  overflow: hidden;
+  z-index: 200;
+}
+.Zombie_Piglinname {
+  width: 200px;
+  height: 120px;
+  display: flex;
+  bottom: 35px;
+  left: 1px;
+  position: absolute;
+  background-size: 100% 100%;
+  overflow: hidden;
+  z-index: 100;
+  visibility: hidden;
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  text-align: top;
+  text-align: center;
+  color: white;
+  font-size: 14;
+}
+.Zombie_Piglin:hover + .Zombie_Piglinname {
+  visibility: visible;
+  opacity: 1;
+}
+
+.Strider {
+  width: 160px;
+  height: 80px;
+  display: flex;
+  bottom: 80px;
+  right: 0px;
+  position: absolute;
+  background-image: url("../img/Strider1.gif");
+  background-size: 100% 100%;
+  overflow: hidden;
+  z-index: 200;
+}
+
+.Stridername {
+  width: 160px;
+  height: 80px;
+  display: flex;
+  bottom: 100px;
+  right: -22px;
+  position: absolute;
+  background-size: 100% 100%;
+  overflow: hidden;
+  z-index: 100;
+  visibility: hidden;
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  text-align: top;
+  text-align: center;
+  color: white;
+  font-size: 14;
+}
+.Strider:hover + .Stridername {
+  visibility: visible;
+  opacity: 1;
+}
+
+.lavablock1 {
+  width: 40px;
+  height: 120px;
+  display: flex;
+  top: 240px;
+  left: 200px;
+  position: absolute;
+  background-image: url("../img/lava.gif");
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden;
+}
+
+.lavablock4 {
+  width: 40px;
+  height: 120px;
+  display: flex;
+  top: 40px;
+  left: 320px;
+  position: absolute;
+  background-image: url("../img/lava.gif");
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden;
+}
+
+/*---지상-------------------------------------*/
+.ground-back {
+  width: 400px;
+  height: 440px;
+  display: flex;
+  bottom: 20px;
+  align-items: center;
+  position: absolute;
+  background-image: url("../img/ground_back.gif");
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden;
+}
+
+.steve {
+  width: 132.16px;
+  height: 91px;
+  display: flex;
+  top: 109px;
+  right: 50px;
+  position: absolute;
+  background-image: url("../img/Steve1.gif");
+  background-size: 100% 100%;
+  overflow: hidden;
+  z-index: 200;
+}
+.stevename {
+  width: 132.16px;
+  height: 91px;
+  display: flex;
+  top: 99px;
+  right: 15px;
+  position: absolute;
+  background-size: 100% 100%;
+  overflow: hidden;
+  z-index: 100;
+  visibility: hidden;
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  text-align: top;
+  text-align: center;
+  color: white;
+  font-size: 14;
+}
+
+.steve:hover + .stevename {
+  visibility: visible;
+  opacity: 1;
+}
+
+.Chicken {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  top: 176px;
+  left: 125px;
+  position: absolute;
+  background-image: url("../img/Chicken1.gif");
+  background-size: 100% 100%;
+  transition: transform 0.2s ease;
+  z-index: 200;
+}
+
+.Chickenname {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  top: 156px;
+  left: 135px;
+  position: absolute;
+  background-size: 100% 100%;
+  transition: transform 0.2s ease;
+  z-index: 100;
+  visibility: hidden;
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  text-align: top;
+  text-align: center;
+  color: white;
+  font-size: 14;
+}
+
+.Chicken:hover + .Chickenname {
+  visibility: visible;
+  opacity: 1;
+}
+
+.Chicken.moving {
+  animation: moveUpDown 2s steps(10) forwards;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-66px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.Creeper {
+  width: 60px;
+  height: 80px;
+  display: flex;
+  left: 10px;
+  bottom: 40px;
+  position: absolute;
+  background-image: url("../img/Creeper1.gif");
+  background-size: 100% 100%;
+  z-index: 200;
+}
+.Creepername {
+  width: 60px;
+  height: 80px;
+  display: flex;
+  left: 15px;
+  bottom: 60px;
+  position: absolute;
+  background-size: 100% 100%;
+  z-index: 100;
+  visibility: hidden;
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  text-align: top;
+  text-align: center;
+  color: white;
+  font-size: 14;
+}
+
+.Creeper:hover + .Creepername {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.dirt {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  bottom: 120px;
+  left: 120px;
+  position: absolute;
+  background-image: url("../img/dirt.png");
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden;
+}
+
+.rock {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  top: 240px;
+  left: 40px;
+  position: absolute;
+  background-image: url("../img/rock.png");
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden;
+}
+.coal {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  bottom: 120px;
+  left: 80px;
+  position: absolute;
+  background-image: url("../img/coal.png");
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden;
+}
+.coal2 {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  bottom: 80px;
+  left: 80px;
+  position: absolute;
+  background-image: url("../img/coal.png");
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden;
+}
+.diamond {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  bottom: 40px;
+  left: 80px;
+  position: absolute;
+  background-image: url("../img/diamond.png");
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden;
+}
+
+.Skeleton {
+  width: 85px;
+  height: 80px;
+  display: flex;
+  bottom: 40px;
+  left: 130px;
+  position: absolute;
+  background-image: url("../img/Skeleton1.gif");
+  background-size: 100% 100%;
+  z-index: 200;
+}
+.Skeletonname {
+  width: 85px;
+  height: 80px;
+  display: flex;
+  bottom: 60px;
+  left: 142px;
+  position: absolute;
+  background-size: 100% 100%;
+  z-index: 100;
+  visibility: hidden;
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  text-align: top;
+  text-align: center;
+  color: white;
+  font-size: 14;
+}
+
+.Skeleton:hover + .Skeletonname {
+  visibility: visible;
+  opacity: 1;
+}
+
+.Zombie {
+  width: 70px;
+  height: 80px;
+  display: flex;
+  bottom: 40px;
+  right: 85px;
+  position: absolute;
+  background-image: url("../img/Zombie1.gif");
+  background-size: 100% 100%;
+  z-index: 200;
+}
+
+.Zombiename {
+  width: 70px;
+  height: 80px;
+  display: flex;
+  bottom: 60px;
+  right: 68px;
+  position: absolute;
+  background-size: 100% 100%;
+  z-index: 100;
+  visibility: hidden;
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  text-align: top;
+  text-align: center;
+  color: white;
+  font-size: 14;
+}
+
+.Zombie:hover + .Zombiename {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*---엔드-------------------------------------------------------------*/
+
+.end-back {
+  /*background-color: red;*/
+  width: 400px;
+  height: 440px;
+  display: flex; /* Flexbox 사용 */
+  bottom: 20px;
+  right: 45px;
+  position: absolute;
+  background-image: url("../img/end_back.gif"); /* 이미지 경로 */
+  background-size: 100% 100%;
+  background-position: center; /* 배경 이미지 중앙 정렬 */
+  overflow: hidden;
+}
+
+.E_Dragon {
+  width: 110px;
+  height: 80px;
+  display: flex;
+  top: 35px;
+  left: 20px;
+  position: absolute;
+  background-image: url("../img/E_Dragon1.gif");
+  background-size: 100% 100%;
+  z-index: 500;
+}
+
+.E_Dragonname {
+  width: 110px;
+  height: 80px;
+  display: flex;
+  top: 13px;
+  left: 50px;
+  position: absolute;
+  background-size: 100% 100%;
+  z-index: 100;
+  visibility: hidden;
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  text-align: top;
+  text-align: center;
+  color: white;
+  font-size: 14;
+}
+.E_Dragon:hover + .E_Dragonname {
+  visibility: visible;
+  opacity: 1;
+}
+.E_DragonFB {
+  width: 155.91px;
+  height: 185px;
+  display: none;
+  position: absolute;
+  background-image: url("../img/E_DragonFB.gif");
+  background-size: 100% 100%;
+}
+
+.Shulker {
+  width: 243.15px;
+  height: 138.88px;
+  display: flex;
+  top: 80px;
+  right: 80px;
+  position: absolute;
+  background-image: url("../img/Shulker1.gif");
+  background-size: 100% 100%;
+  z-index: 200;
+}
+
+.Shulkername {
+  width: 243.15px;
+  height: 138.88px;
+  display: flex;
+  top: 60px;
+  right: -100px;
+  position: absolute;
+  background-size: 100% 100%;
+  z-index: 100;
+  visibility: hidden;
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  text-align: top;
+  text-align: right;
+  color: white;
+  font-size: 14;
+}
+
+.Shulker:hover + .Shulkername {
+  visibility: visible;
+  opacity: 1;
+}
+.Enderman {
+  width: 60px;
+  height: 80px;
+  position: absolute;
+  z-index: 1000;
+  background-image: url("../img/Enderman1.png");
+  background-size: 100% 100%;
+  visibility: visible;
+}
+
+.Endermanname {
+  position: absolute;
+  bottom: 90px;
+  right: -20px;
+  align-items: center;
+  width: 100px;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+  color: white;
+  font-size: 14px;
+  z-index: 100;
+}
+
+.Enderman:hover .Endermanname {
+  visibility: visible;
+  opacity: 1;
+}
