@@ -17,7 +17,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  background-image: url("../img/background.png");
+  background-image: url("/img/background.png");
   background-size: 100% 100%;
   background-position: center;
   overflow: hidden;
@@ -26,7 +26,7 @@
 .title-box {
   width: 714.39px;
   height: 122.28px;
-  background-image: url("../img/title.png");
+  background-image: url("/img/title.png");
   background-size: 100% 100%;
   position: absolute;
   top: 15px;
@@ -47,7 +47,7 @@
   height: 70px;
   background-size: 100% 100%;
   position: absolute;
-  background-image: url("../img/E_date.png");
+  background-image: url("/img/E_date.png");
   top: 80px;
   right: 45px;
 }
@@ -57,7 +57,7 @@
   height: 70px;
   background-size: 100% 100%;
   position: absolute;
-  background-image: url("../img/E_place.png");
+  background-image: url("/img/E_place.png");
   top: 80px;
   left: 45px;
 }
@@ -71,7 +71,7 @@
   bottom: 20px;
   left: 45px;
   position: absolute;
-  background-image: url("../img/hell_back.png");
+  background-image: url("/img/hell_back.png");
   background-size: 100% 100%;
   background-position: center;
   overflow: hidden;
@@ -84,7 +84,7 @@
   top: 109px;
   left: 50px;
   position: absolute;
-  background-image: url("../img/ghast1.gif");
+  background-image: url("/img/ghast1.gif");
   background-size: 100% 100%;
   overflow: hidden;
   z-index: 200;
@@ -121,7 +121,7 @@
   top: 40px;
   right: 84px;
   position: absolute;
-  background-image: url("../img/Piglin2.gif");
+  background-image: url("/img/Piglin2.gif");
   background-size: 100% 100%;
   overflow: hidden;
   z-index: 200;
@@ -158,7 +158,7 @@
   bottom: 40px;
   left: 1px;
   position: absolute;
-  background-image: url("../img/Zombie_Piglin1.gif");
+  background-image: url("/img/Zombie_Piglin1.gif");
   background-size: 100% 100%;
   overflow: hidden;
   z-index: 200;
@@ -193,7 +193,7 @@
   bottom: 80px;
   right: 0px;
   position: absolute;
-  background-image: url("../img/Strider1.gif");
+  background-image: url("/img/Strider1.gif");
   background-size: 100% 100%;
   overflow: hidden;
   z-index: 200;
@@ -229,7 +229,7 @@
   top: 240px;
   left: 200px;
   position: absolute;
-  background-image: url("../img/lava.gif");
+  background-image: url("/img/lava.gif");
   background-size: 100% 100%;
   background-position: center;
   overflow: hidden;
@@ -242,7 +242,7 @@
   top: 40px;
   left: 320px;
   position: absolute;
-  background-image: url("../img/lava.gif");
+  background-image: url("/img/lava.gif");
   background-size: 100% 100%;
   background-position: center;
   overflow: hidden;
@@ -256,7 +256,7 @@
   bottom: 20px;
   align-items: center;
   position: absolute;
-  background-image: url("../img/ground_back.gif");
+  background-image: url("/img/ground_back.gif");
   background-size: 100% 100%;
   background-position: center;
   overflow: hidden;
@@ -269,7 +269,7 @@
   top: 109px;
   right: 50px;
   position: absolute;
-  background-image: url("../img/Steve1.gif");
+  background-image: url("/img/Steve1.gif");
   background-size: 100% 100%;
   overflow: hidden;
   z-index: 200;
@@ -305,7 +305,7 @@
   top: 176px;
   left: 125px;
   position: absolute;
-  background-image: url("../img/Chicken1.gif");
+  background-image: url("/img/Chicken1.gif");
   background-size: 100% 100%;
   transition: transform 0.2s ease;
   z-index: 200;
@@ -358,7 +358,7 @@
   left: 10px;
   bottom: 40px;
   position: absolute;
-  background-image: url("../img/Creeper1.gif");
+  background-image: url("/img/Creeper1.gif");
   background-size: 100% 100%;
   z-index: 200;
 }
@@ -396,7 +396,7 @@
   bottom: 120px;
   left: 120px;
   position: absolute;
-  background-image: url("../img/dirt.png");
+  background-image: url("/img/dirt.png");
   background-size: 100% 100%;
   background-position: center;
   overflow: hidden;
@@ -409,7 +409,7 @@
   top: 240px;
   left: 40px;
   position: absolute;
-  background-image: url("../img/rock.png");
+  background-image: url("/img/rock.png");
   background-size: 100% 100%;
   background-position: center;
   overflow: hidden;
@@ -421,7 +421,7 @@
   bottom: 120px;
   left: 80px;
   position: absolute;
-  background-image: url("../img/coal.png");
+  background-image: url("/img/coal.png");
   background-size: 100% 100%;
   background-position: center;
   overflow: hidden;
@@ -433,7 +433,7 @@
   bottom: 80px;
   left: 80px;
   position: absolute;
-  background-image: url("../img/coal.png");
+  background-image: url("/img/coal.png");
   background-size: 100% 100%;
   background-position: center;
   overflow: hidden;
@@ -445,7 +445,7 @@
   bottom: 40px;
   left: 80px;
   position: absolute;
-  background-image: url("../img/diamond.png");
+  background-image: url("/img/diamond.png");
   background-size: 100% 100%;
   background-position: center;
   overflow: hidden;
@@ -458,7 +458,7 @@
   bottom: 40px;
   left: 130px;
   position: absolute;
-  background-image: url("../img/Skeleton1.gif");
+  background-image: url("/img/Skeleton1.gif");
   background-size: 100% 100%;
   z-index: 200;
 }
@@ -492,7 +492,7 @@
   bottom: 40px;
   right: 85px;
   position: absolute;
-  background-image: url("../img/Zombie1.gif");
+  background-image: url("/img/Zombie1.gif");
   background-size: 100% 100%;
   z-index: 200;
 }
@@ -530,7 +530,7 @@
   bottom: 20px;
   right: 45px;
   position: absolute;
-  background-image: url("../img/end_back.gif"); /* 이미지 경로 */
+  background-image: url("/img/end_back.gif"); /* 이미지 경로 */
   background-size: 100% 100%;
   background-position: center; /* 배경 이미지 중앙 정렬 */
   overflow: hidden;
@@ -574,7 +574,7 @@
   height: 185px;
   display: none;
   position: absolute;
-  background-image: url("../img/E_DragonFB.gif");
+  background-image: url("/img/E_DragonFB.gif");
   background-size: 100% 100%;
 }
 
@@ -585,7 +585,7 @@
   top: 80px;
   right: 80px;
   position: absolute;
-  background-image: url("../img/Shulker1.gif");
+  background-image: url("/img/Shulker1.gif");
   background-size: 100% 100%;
   z-index: 200;
 }
@@ -617,7 +617,7 @@
   height: 80px;
   position: absolute;
   z-index: 1000;
-  background-image: url("../img/Enderman1.png");
+  background-image: url("/img/Enderman1.png");
   background-size: 100% 100%;
   visibility: visible;
 }
