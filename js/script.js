@@ -93,7 +93,7 @@ $(document).ready(function () {
 ///지상
 
 $(document).ready(function () {
-  const steve = $(".Steve");
+  const steve = $(".steve");
   const originalBackground = "../img/Steve1.gif";
   const BackgroundChange = "../img/Steve2.gif";
 
